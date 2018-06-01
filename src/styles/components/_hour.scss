@@ -1,0 +1,19 @@
+.hourlyTable {
+    margin: 0 auto;
+    width: 60%;
+    background-color: $transparent-white;
+    border-collapse: collapse;
+  
+    th {
+      padding: 8px 0;
+    }
+  
+    td {
+      padding: 8px 0;
+      border-bottom: 1px solid grey;
+    }
+  
+    .wi {
+      font-size: 2rem;
+    }
+  }

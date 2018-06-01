@@ -1,0 +1,131 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  background-image: url("/images/snow.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  color: $black;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lato", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+}
+
+// Weather container 
+#weather-container {
+  margin: 0 auto;
+  width: 60%;
+  background-color: $transparent-white;
+  padding: 20px;
+
+  h2 {
+    text-decoration: underline;
+  }
+}
+
+// Media Queries
+@media screen and (max-width: 960px) {
+  #weather-container,
+  .hourlyTable,
+  .charts {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #temps,
+  #humidities,
+  #wind,
+  #pressures {
+    width: 400px !important;
+  }
+
+  #temps,
+  #humidities,
+  #pressures {
+    height: 250px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #weather-container {
+    padding: 20px 7px;
+  }
+
+  #temps,
+  #humidities,
+  #wind,
+  #pressures {
+    width: 350px !important;
+  }
+
+  #temps,
+  #humidities,
+  #pressures {
+    height: 220px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #weather-container,
+  .hourlyTable,
+  .charts {
+    width: 97%;
+  }
+
+  nav {
+    padding: 30px 5px;
+  }
+
+  nav ul a {
+    font-size: 1.5rem;
+  }
+
+  #details ul:first-child {
+    margin-right: 25px;
+  }
+
+  #temps,
+  #humidities,
+  #wind,
+  #pressures {
+    width: 300px !important;
+  }
+
+  #temps,
+  #humidities,
+  #pressures {
+    height: 200px !important;
+  }
+}

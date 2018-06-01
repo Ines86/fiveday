@@ -1,0 +1,31 @@
+#forecast {
+    .wi {
+      font-size: 6rem;
+      margin: 10px 0 35px 0;
+    }
+  
+    .desc {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  
+    .temp {
+      font-size: 5rem;
+      padding: 15px;
+    }
+  
+    h2 {
+      margin-top: 0;
+    }
+  }
+  
+  #details {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    line-height: 1.5;
+  
+    ul:first-child {
+      margin-right: 45px;
+    }
+  }

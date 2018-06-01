@@ -1,0 +1,32 @@
+nav {
+    padding: 30px;
+  
+    ul {
+      display: flex;
+      justify-content: center;
+  
+      li {
+        padding-right: 20px;
+      }
+  
+      a {
+        color: $white;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 2rem;
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 8px;
+        letter-spacing: 0.8px;
+      }
+  
+      a:hover {
+        border-bottom: 1px solid $white;
+        background-color: $transparent-black;
+      }
+  
+      a.active {
+        border-bottom: 1px solid $white;
+        background-color: $transparent-black;
+      }
+    }
+  }

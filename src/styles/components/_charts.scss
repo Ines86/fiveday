@@ -1,0 +1,21 @@
+.charts {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7);
+  
+    .chartdata {
+      margin: 0 auto;
+    }
+  
+    #temps,
+    #humidities,
+    #wind,
+    #pressures {
+      margin: 0 auto;
+    }
+  
+    h2 {
+      text-decoration: underline;
+    }
+  }
